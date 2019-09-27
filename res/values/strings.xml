@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Chat Project</string>
+    <string name="forget_your_password"><u>نسيت كلمة المرور؟</u></string>
+    <string name="create_new_account"><u>إنشاء حساب جديد؟</u></string>
+    <string name="do_not_have_account">لا أمتلك حساب</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="remeber_me">تذكرني</string>
+    <string name="password">كلمة المرور</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="return_pass_by">استرجاع كلمة المرور عبر:</string>
+    <string name="email">البريد الاليكتروني</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="contact_admin">مراسلة الادمن</string>
+    <string name="send">ارسال</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="password_confirm">تاكيد كلمة المرور</string>
+    <string name="login_underline"><u>تسجيل الدخول</u></string>
+    <string name="i_have_account">امتلك حساب</string>
+    <string name="nickname">الاسم المعروض</string>
+    <string name="social_status">الحالة الاجتماعية</string>
+    <string name="city">المدينة</string>
+
+    <string-array name="social">
+        <item><b>---الحالة الاجتماعية---</b></item>
+        <item>اعزب</item>
+        <item>متزوج</item>
+        <item>مطلق</item>
+        <item>علاقة معقدة</item>
+    </string-array>
+
+    <string-array name="country">
+        <item><b>---الدولة---</b></item>
+        <item>اعزب</item>
+        <item>متزوج</item>
+        <item>مطلق</item>
+        <item>علاقة معقدة</item>
+    </string-array>
+
+    <string-array name="city">
+        <item><b>---المدينة---</b></item>
+        <item>اعزب</item>
+        <item>متزوج</item>
+        <item>مطلق</item>
+        <item>علاقة معقدة</item>
+    </string-array>
+
+</resources>

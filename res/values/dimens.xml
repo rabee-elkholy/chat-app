@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_edx">16dp</dimen>
+    <dimen name="margin_edx">32dp</dimen>
+    <dimen name="logo_width">100dp</dimen>
+    <dimen name="logo_height">100dp</dimen>
+    <dimen name="logo_topMargin">64dp</dimen>
+    <dimen name="card_height">100dp</dimen>
+    <dimen name="card_margin">8dp</dimen>
+    <dimen name="card_corner_radius">10dp</dimen>
+    <dimen name="card_icon_width">40dp</dimen>
+    <dimen name="card_icon_height">40dp</dimen>
+    <dimen name="card_icon_margin">8dp</dimen>
+    <dimen name="card_lable_margin">16dp</dimen>
+    <dimen name="button_padding">60dp</dimen>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".forgetpassword.fragmentation.ReturnByEmailFragment">
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/crv_by_email_forgetpass"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/border"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="@dimen/card_icon_width"
+                android:layout_height="@dimen/card_icon_height"
+                android:layout_margin="@dimen/card_icon_margin"
+                android:layout_gravity="top|center_horizontal"
+                app:srcCompat="@android:drawable/btn_star_big_on" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_margin="@dimen/card_lable_margin"
+                android:text="@string/email" />
+        </LinearLayout>
+        <EditText
+            android:layout_gravity="center"
+            android:id="@+id/etx_username_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:background="@drawable/rounded_edittext"
+            android:ellipsize="end"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textPersonName"
+            android:padding="16dp"
+            android:singleLine="true"
+            />
+        <Button
+            android:id="@+id/btn_login_login"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/button_padding"
+            android:paddingStart="@dimen/button_padding"
+            android:paddingEnd="@dimen/button_padding"
+            android:paddingRight="@dimen/button_padding"
+            android:layout_margin="48dp"
+            android:text="@string/send"
+            android:background="@drawable/shape_btn"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@android:color/white"
+            />
+
+    </LinearLayout>
+</ScrollView>

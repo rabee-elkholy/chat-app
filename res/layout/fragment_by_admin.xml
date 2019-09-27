@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".forgetpassword.fragmentation.ReturnByAdminFragment">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/crv_by_email_forgetpass"
+        android:background="@drawable/border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="@dimen/card_icon_width"
+            android:layout_height="@dimen/card_icon_height"
+            android:layout_margin="@dimen/card_icon_margin"
+            android:layout_gravity="top|center_horizontal"
+            app:srcCompat="@android:drawable/checkbox_on_background" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_margin="@dimen/card_lable_margin"
+            android:text="@string/contact_admin" />
+    </LinearLayout>
+
+
+        <ListView
+            android:id="@+id/admins_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+</LinearLayout>
